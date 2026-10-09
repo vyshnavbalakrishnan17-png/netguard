@@ -1,0 +1,20 @@
+name: netguard
+description: NetGuard - Wi-Fi Network Management & Access Control
+publish_to: none
+version: 0.1.0+1
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.6.0
+  provider: ^6.1.2
+  shared_preferences: ^2.5.5
+  # Added in later phases:
+  # sqflite, flutter_secure_storage, local_auth, http (+cookie handling)
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
